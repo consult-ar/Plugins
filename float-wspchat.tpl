@@ -136,6 +136,14 @@
                         </a>
                         {/foreach}
 
+                    {else}
+                        <a href="#" class="wsp-personal" target="blank">
+                            <div class="foto" style="height: 60px; background-image:url({$URL}/images/wsp.png); background-size:cover; border:none!important; background-position: center;"></div>
+                            <div class="datos">
+                                <h5>Contactanos</h5>
+                                <p>XXXXX-XXXXX</p>
+                            </div>
+                        </a>
                     {/if}
                    <div class="footer">
                        <a href="{$URL}/texto/solicita_tu_reunion_virtual" class="text-center" target="blank" style="background-color:#000f9f;padding:5px;margin:0!important; color:#fff">
