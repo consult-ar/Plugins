@@ -5,6 +5,9 @@ todos se llaman de esta forma {include file="[THEME]plugins/nombre_del_pluggin.t
 llamar slide links home :  
 {include file="[THEME]plugins/slide_links_home.tpl"}
 
+# Productos Destacados
+{include file="[THEME]plugins/destacados.tpl" productos=Web::paquetes(CANTIDAD, FALSE, CATEGORÍA)}
+
 # destacados Carousel(utiliza owl carousel).  
 8 es la cantidad de paquetes 266 la categoría *remplazar*.  
 {include file="[THEME]plugins/destacados_carousel.tpl" ID=266 productos=Web::paquetes(8, FALSE, 266)}
