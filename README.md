@@ -1,13 +1,16 @@
 # Plugins
 todos se llaman de esta forma {include file="[THEME]plugins/nombre_del_pluggin.tpl"}
 
+# floatwsp.  
+Permite cargar varios números de wsp desde el modulo de links creandole una categoría, si no hay categoría creada muestra un else que puede modificarse en duro desde el puggin.
+
 # slide links home
 llamar slide links home :  
 {include file="[THEME]plugins/slide_links_home.tpl"}
 
 # Productos Destacados
 {include file="[THEME]plugins/destacados.tpl" productos=Web::paquetes(CANTIDAD, FALSE, CATEGORÍA)}
-
+e
 # destacados Carousel(utiliza owl carousel).  
 8 es la cantidad de paquetes 266 la categoría *remplazar*.  
 {include file="[THEME]plugins/destacados_carousel.tpl" ID=266 productos=Web::paquetes(8, FALSE, 266)}
