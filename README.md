@@ -16,6 +16,10 @@ llamar slide links home :
 llamar pluggin remplazar 272 x categoría.  
 {include file="[THEME]plugins/links-urls.tpl" links=Web::links(272) ID=272}
 
+# links landing.   
+Plugin para mostrar productos desde links en las landings, se llama así:
+{include file="[THEME]plugins/links-landing.tpl" links=Web::links(272)}
+
 # PREGUNTAS
 ES UN TEMPLATE DIRECTO DE UNA PÁGINA DE PREGUNTAS FRECUENTES CREADA A PARTIR DEL <b>ACORDION</b> DE BS
 modificar ($categoriaID = FALSE) por número de categoría sin <b>$</b> ni <b>= FALSe</b>
