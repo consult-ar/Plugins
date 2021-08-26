@@ -15,3 +15,6 @@ llamar slide links home :
 # links URL
 llamar pluggin remplazar 272 x categoría.  
 {include file="[THEME]plugins/links-urls.tpl" links=Web::links(272) ID=272}
+
+# PREGUNTAS
+ES UN TEMPLATE DIRECTO DE UNA PÁGINA DE PREGUNTAS FRECUENTES CREADA A PARTIR DEL <b>ACORDION</b> DE BS
