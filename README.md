@@ -4,6 +4,9 @@ todos se llaman de esta forma {include file="[THEME]plugins/nombre_del_pluggin.t
 # floatwsp.  
 Permite cargar varios números de wsp desde el modulo de links creandole una categoría, si no hay categoría creada muestra un else que puede modificarse en duro desde el puggin.
 
+# Slide home.  
+carga de slide tradicional en el include agregar la variable ID=NUMERO_DE_CATEGORÍA
+
 # slide links home
 llamar slide links home :  
 {include file="[THEME]plugins/slide_links_home.tpl"}
