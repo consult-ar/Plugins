@@ -1,6 +1,9 @@
 # Plugins
 todos se llaman de esta forma {include file="[THEME]plugins/nombre_del_pluggin.tpl"}
 
+# Cabeceras landing
+template para copiar en las landing internas del sitio NO COMO PLUGGIN SINO COPIANDO TAL CUAL EL CÓDIGO Y ASIGNANDOLE UNA CATEGORA DE BANNERS. SI NO TIENE CATEGORÍA CREADA BUSCARA EL ARCHIVO HOME.JPG EN LA CARPETA IMAGENES DEL SERVIDOR
+
 # floatwsp.  
 Permite cargar varios números de wsp desde el modulo de links creandole una categoría, si no hay categoría creada muestra un else que puede modificarse en duro desde el puggin.
 
