@@ -18,3 +18,4 @@ llamar pluggin remplazar 272 x categoría.
 
 # PREGUNTAS
 ES UN TEMPLATE DIRECTO DE UNA PÁGINA DE PREGUNTAS FRECUENTES CREADA A PARTIR DEL <b>ACORDION</b> DE BS
+modificar ($categoriaID = FALSE) por número de categoría sin <b>$</b> ni <b>= FALSe</b>
