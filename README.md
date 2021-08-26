@@ -25,6 +25,9 @@ e
 llamar pluggin remplazar 272 x categoría.  
 {include file="[THEME]plugins/links-urls.tpl" links=Web::links(272) ID=272}
 
+# LINKS COMENTARIOS
+ {include file="[THEME]plugins/links-comentarios.tpl" links=Web::links(CATEGORÍA)}
+
 # links landing.   
 Plugin para mostrar productos desde links en las landings, se llama así:
 {include file="[THEME]plugins/links-landing.tpl" links=Web::links(272)}
